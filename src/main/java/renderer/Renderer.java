@@ -35,8 +35,8 @@ public class Renderer extends PApplet implements InputBroadcaster {
     /**
      * Constructs a new renderer this is called first and sets up the game.
      */
-    public Renderer(Game game){
-        this.game = game;
+    public Renderer(){
+        this.game = new TheLegend27();
     }
 
     /**

@@ -22,16 +22,6 @@ public class RendererTest {
     @Test
     public void draw() throws Exception {
         PApplet.main("App");
-
-        Scene scene = new Scene() {};
-        Entity testEntity = new Entity(new Vector(1, 1)) {};
-        scene.addEntity(testEntity);
-
-        Game game = new TheLegend27();
-        game.setScene(scene);
-
-        testRenderer = new Renderer(game);
-
         while(true){
 
         }
